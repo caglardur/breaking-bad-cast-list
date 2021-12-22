@@ -2,7 +2,11 @@
 
 This project is a website that lists actors and actresses in the television series ["Breaking Bad"](https://www.imdb.com/title/tt0903747/).
 
-## Built With
+## Demo
+
+Try online: [Breaking Bad Cast List](https://breaking-bad-cast-list.vercel.app/)
+
+## Built with
 
 - [React.js](https://reactjs.org/)
 - [Create React App](https://create-react-app.dev/)
@@ -10,18 +14,21 @@ This project is a website that lists actors and actresses in the television seri
 - [Material-UI](https://mui.com/)
 - [axios](https://axios-http.com/)
 
-## Installation
+## Installation steps
 
-1. Clone the repo
+1. Clone the repository
    ```sh
    git clone https://github.com/caglardur/breaking-bad-cast-list.git
    ```
-2. Install NPM packages
+2. Change the working directory
    ```sh
    cd breaking-bad-cast-list
+   ```
+3. Install NPM packages
+   ```sh
    npm install
    ```
-3. Enter your API in `config.js`
+4. Run the app
 
    ```js
    npm start
