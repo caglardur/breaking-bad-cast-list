@@ -13,7 +13,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<CastList />} />
-          <Route path="char" element={<Char />} />
+          <Route path=":charName" element={<Char />} />
         </Route>
       </Routes>
     </BrowserRouter>

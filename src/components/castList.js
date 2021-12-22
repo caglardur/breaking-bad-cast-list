@@ -15,7 +15,7 @@ const CastList = () => {
       {cast ? (
         cast.map(char => (
           <Grid item key={char.char_id} xs={12} sm={6} md={4} xl={3}>
-            <Link to="char" state={char}>
+            <Link to={char.portrayed} state={char}>
               <Grid container mx="auto" justifyContent="center">
                 <Grid item>
                   <Paper sx={{ display: "flex" }}>

@@ -15,11 +15,10 @@ const Char = () => {
     }, 500)
   }, [char, navigate])
 
-  console.log(char)
   return (
     <Grid container spacing={1}>
       {char ? (
-        <Grid container mx="auto" justifyContent="center">
+        <Grid container>
           <Grid item>
             <Paper sx={{ display: "flex" }}>
               <Avatar alt={char.name} src={char.img} sx={{ width: 272, height: "auto", mx: 1, my: 1 }} variant="rounded" loading="lazy" />
@@ -28,7 +27,7 @@ const Char = () => {
           <Grid item ml={2}>
             <Grid item my={2}>
               <Typography variant="h3">{char.portrayed}</Typography>
-              <Typography>{char.birthday !== "Unknown" && "(" + char.birthday + ")"}</Typography>
+              <Typography>{char.birthday !== "Unknown" && "Birthday: " + char.birthday}</Typography>
             </Grid>
             <Grid item my={2}>
               <Typography display="inline" variant="subtitle1" mr={1}>
