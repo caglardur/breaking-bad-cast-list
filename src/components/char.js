@@ -46,7 +46,7 @@ const Char = () => {
             <Grid item my={2}>
               <Grid container>
                 <Grid item my={1}>
-                  <Typography display="inline">Season(s):</Typography>
+                  <Typography display="inline">{char.appearance.length > 1 ? "Seasons:" : "Season:"}</Typography>
                 </Grid>
                 {char.appearance.map(season => (
                   <Grid item ml={1} my={1} key={season}>
@@ -58,7 +58,7 @@ const Char = () => {
               </Grid>
             </Grid>
             <Grid item my={2}>
-              <Typography display="inline">Role(s):</Typography>
+              <Typography display="inline">{char.occupation.length > 1 ? "Roles:" : "Role:"}</Typography>
               {char.occupation.map((role, index) => (
                 <Chip label={role} key={index} sx={{ marginLeft: "10px" }} />
               ))}
