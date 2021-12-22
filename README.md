@@ -4,11 +4,11 @@ This project is a website that lists actors and actresses in the television seri
 
 ## Built With
 
-[React.js](https://reactjs.org/)
-[Create React App](https://create-react-app.dev/)
-[React Router](https://reactrouter.com/)
-[Material-UI](https://mui.com/)
-[axios](https://axios-http.com/)
+*.[React.js](https://reactjs.org/)
+*.[Create React App](https://create-react-app.dev/)
+*.[React Router](https://reactrouter.com/)
+*.[Material-UI](https://mui.com/)
+*.[axios](https://axios-http.com/)
 
 ## Installation
 
